@@ -1,0 +1,190 @@
+/* General */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+    color: black;
+    background-color: #ebebeb;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+  }
+
+/* HEADER */
+
+header{
+    background-color: #EAC926;
+}
+
+.header__logo{
+    width: 40%;    
+    padding: 20px;
+}
+
+.header__parrafo {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header__navbar{
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: black;
+
+}
+
+.header__searchbutton{
+    padding: 10px;
+}
+
+.header__barra{
+    background-color: #1259c3;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* MAIN */
+
+.main{
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.main h2{
+    color: #666;
+    font-weight: 900px;
+    padding: 10px;
+    text-align: initial;
+    font-size: 24px;
+}
+
+.main h4 h3{
+    font-size: 18px;
+}
+
+.main p, h4, h3{
+    text-align: initial;
+}
+
+.main p, .main i{
+    color: #39b54a;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.main h3{
+    color: #666;
+    margin-top: 10px;
+}
+
+.articles__items{
+    border-top: solid 1px #ebebeb;
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    bottom: 10px;
+}
+
+.main i{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+/* Footer */
+
+.footer{
+    text-align: center;   
+    background-color: white; 
+}
+
+.footer h3{
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}
+.footer i{
+    color: #1259c3;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.footer p{
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
+/* Media queries */
+
+/* Mobile */
+
+@media (max-width: 360px){
+
+.product__description{
+    display: none;
+}
+
+article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.header__navbar{
+    display: none;
+}
+
+}
+
+/* Tablets */
+
+@media (min-width: 361px){
+
+.header__barra{
+    display: none;
+}
+}
+
+/* Desktop */
+
+@media (min-width: 769px) {
+.header__barra{
+    display: none;
+}
+}
